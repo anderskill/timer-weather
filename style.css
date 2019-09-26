@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image:url('homer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img {
+    padding-top: 15px;
+}
+.flexContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+}
+
+.clock, .timer__section {
+    border: black solid;
+    border-radius: 10px;
+    background-color: #1c28d3;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    position:relative;
+    width: 400px;
+    text-align: center;
+    font-family: 'Chilanka', cursive;
+    font-size: 20px;
+}
+
+.clock {
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 3px 3px 0px #000000;
+}
+
+.timer {
+    display: block;
+    margin: 0 auto;
+    border: solid;
+    background: rgb(89, 119, 252);
+    border-color: black;
+    margin-bottom: 5px;
+    padding-top:5px;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bolder;
+}
+
+input { 
+    text-align: center; 
+}
+
+.inputFormat {
+    background: rgb(89, 119, 252);
+    border-color: black;
+    border-radius: 5px;
+    width: 30px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+.timerPar {
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    letter-spacing: .05em;
+    line-height: 1.3em;
+    color: white;
+    text-shadow: 3px 3px 0px #000000;
+}
+
+.timerPar2 {
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 0px #000000;
+    letter-spacing: .1em;
+}
+
+
+.button {
+    border-radius: 5px;
+    border: solid black;
+    padding-top: 5px;
+    background-color: yellow;
+    font-family: 'Chilanka', cursive;
+    font-weight: bold;
+    height: 25px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+.button:hover {
+    background-color: yellow;
+    color: red;
+}
+

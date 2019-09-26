@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>Homer's Buff Beer Timer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Chilanka&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="/anders/index.html"><img src=" HomerSmall.png" alt="HomerSmall" width="50vw" /></a>
+    <div class="flexContainer">
+
+        <body onload="
+                updateClock(); setInterval('updateClock()', 1000)"></body>
+        <div class="clock">
+            <img src="logo.png" width="150px"><br></p>
+            <p id="clock"></p>
+
+        </div>
+        <div class="timer__section">
+            <p class="timerPar">How long till Homer gets his Buff Beer?</p>
+            <div class="timer" id="timer"></div>
+            <p class="timerPar2">Enter Minutes: <input class="inputFormat" id="minutesInput" type="text" name="minutes">
+                Enter Seconds: <input class="inputFormat" id="secondsInput" type="text" name="seconds"></p>
+            <input class="button" id="button__time" type="button" value="Set Homer's timer">
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

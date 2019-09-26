@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background: linear-gradient(rgb(47,150,163), rgb(48,62,143)); */
+    background-image: url("https://vignette.wikia.nocookie.net/simpsons/images/5/50/Wiki-background/revision/latest?cb=20111015160455");
+    background-size: fill;
+    background-repeat: no-repeat;
+    font-family: 'Mansalva', cursive;
+    color: rgb(196, 72, 253);
+}
+
+.location, 
+.temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.location-timezone{
+    font-size: 50px;
+}
+
+.homers-weather{
+    font-size: 30px;
+}
+
+
+.temperature {
+    flex-direction: column;
+   
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+     cursor: pointer;
+}
+
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.degree-section h2{
+    font-size: 60px;
+}
+
+
+#homer-pic {
+    width: 20vw;
+    /* height: 100%; */
+    position: relative;
+    border: solid 2px white;
+    display: flex;
+    left: 10%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px grey;
+}
